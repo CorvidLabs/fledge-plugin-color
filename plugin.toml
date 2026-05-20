@@ -1,0 +1,16 @@
+[plugin]
+name = "fledge-plugin-color"
+version = "0.1.0"
+description = "A fledge plugin"
+author = "CorvidLabs"
+license = "MIT"
+
+[[commands]]
+name = "color"
+description = "A fledge plugin"
+binary = "bin/color"
+
+[capabilities]
+exec = false
+store = false
+metadata = false

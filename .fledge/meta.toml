@@ -1,0 +1,32 @@
+[source]
+template = "fledge-plugin"
+fledge_version = "1.4.2"
+created = "2026-05-19"
+
+[variables]
+author = "CorvidLabs"
+command_name = "color"
+date = "2026-05-19"
+description = "A fledge plugin"
+emoji = "🔌"
+github_org = "CorvidLabs"
+license = "MIT"
+needs_exec = "false"
+needs_store = "false"
+project_name = "fledge-plugin-color"
+project_name_camel = "fledgePluginColor"
+project_name_kebab = "fledge-plugin-color"
+project_name_pascal = "FledgePluginColor"
+project_name_snake = "fledge_plugin_color"
+year = "2026"
+
+[files]
+".github/workflows/ci.yml" = "90ffbcf4f669a4bf3a3abd57d9d0e94242788b90db9977cd2e71dc55a8a1d628"
+".github/workflows/pages.yml" = "ee551643c79435cf219a32add9481e3d5b28030ddb526cd811873f4cfcec3420"
+".gitignore" = "69739a6b2550e6facc9c70253d7342b2981c1e39fc2c38713eb88d063f379db8"
+LICENSE = "2b7d7a30fcc8929c7b1adbcc0dccf91acccf686344c4866f19094cff9259ec6a"
+"README.md" = "a47b9ae78ffa9fcdd66d2a8a132463f95754844e640a5dafdc689b1a023de784"
+"bin/color" = "029b22bedfabf4fbc418b2c47609d5ef8bbd2655a635db3f5668dbe6b18035a6"
+"docs/index.html" = "ffdcd068713e7437c08a631ac0d7a3b51939bc73859c2bdafa9cf0ecfce87a4d"
+"fledge.toml" = "4761456e8176ffcd51237d3ec5c6ef316a032a5bf526c2ebe331ac30b2688ca5"
+"plugin.toml" = "ea6d25441ecda9e89ca1a9f58349b739af8998a8c0d62ca43748166fb5c28c32"

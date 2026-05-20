@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+# fledge-plugin-color — A fledge plugin
+#
+# This is a starter stub. Replace it with any language — the only contract
+# is that `bin/color` is executable and supports `--help`.
+set -euo pipefail
+
+usage() {
+  cat <<'EOF'
+fledge color — A fledge plugin
+
+USAGE:
+  fledge color [OPTIONS] [ARGS]
+
+OPTIONS:
+  -h, --help    Show this help
+
+EXAMPLES:
+  fledge color
+EOF
+}
+
+while [ $# -gt 0 ]; do
+  case "$1" in
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    -*)
+      echo "fledge-plugin-color: unknown flag '$1'" >&2
+      exit 64
+      ;;
+    *)
+      break
+      ;;
+  esac
+done
+
+echo "Hello from fledge-plugin-color!"
