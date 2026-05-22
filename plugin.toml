@@ -1,13 +1,13 @@
 [plugin]
 name = "fledge-plugin-color"
-version = "0.1.0"
-description = "A fledge plugin"
+version = "0.1.1"
+description = "Color conversions and a browser color picker — parse HEX/RGB/HSL, print HEX/RGB/HSL/CMYK with an inline terminal swatch, or open a glassmorphic web UI"
 author = "CorvidLabs"
 license = "MIT"
 
 [[commands]]
 name = "color"
-description = "A fledge plugin"
+description = "Convert a color value between HEX, RGB, HSL, and CMYK, with a true-color ANSI swatch. `color ui` launches an interactive color picker in the browser on localhost:3000."
 binary = "bin/color"
 
 [capabilities]
