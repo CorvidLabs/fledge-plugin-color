@@ -1,0 +1,5 @@
+[registry]
+name = "fledge-plugin-color-trust-wave3"
+
+[specs]
+color = "specs/color/color.spec.md"
