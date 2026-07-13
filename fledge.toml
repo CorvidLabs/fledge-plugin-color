@@ -2,6 +2,10 @@
 # Docs: https://github.com/CorvidLabs/fledge#task-runner
 
 [tasks]
-# build = "make build"
-# test = "make test"
-# lint = "echo 'add your linter'
+syntax = "node --check bin/color"
+help = "bin/color --help"
+conversion = "bin/color '#ff8800'"
+
+[lanes.verify]
+description = "Validate syntax, help output, and a representative color conversion"
+steps = ["syntax", "help", "conversion"]
