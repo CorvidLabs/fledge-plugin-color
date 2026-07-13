@@ -1,6 +1,6 @@
 ---
 id: CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-governance-for-the-color-fledge-plugin
-state: implementing
+state: accepted
 type: migration
 base_commit: bf65f1a9d9d0714109f7314d0f8eeb40ce3a2803
 ---
